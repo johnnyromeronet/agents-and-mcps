@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsAndMcps.Console", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsAndMcps.Client", "src\AgentsAndMcps.Client\AgentsAndMcps.Client.csproj", "{EA4323EA-2537-4B72-A0F0-575FCAA8522D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsAndMcps.SSE.Server", "src\AgentsAndMcps.SSE.Server\AgentsAndMcps.SSE.Server.csproj", "{7C140B65-16B6-45AB-A06C-948D4E318FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsAndMcps.SSE.Client", "src\AgentsAndMcps.SSE.Client\AgentsAndMcps.SSE.Client.csproj", "{79418CEA-E115-43B2-BAF4-A6F20C0C4FBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{EA4323EA-2537-4B72-A0F0-575FCAA8522D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA4323EA-2537-4B72-A0F0-575FCAA8522D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA4323EA-2537-4B72-A0F0-575FCAA8522D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C140B65-16B6-45AB-A06C-948D4E318FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C140B65-16B6-45AB-A06C-948D4E318FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C140B65-16B6-45AB-A06C-948D4E318FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C140B65-16B6-45AB-A06C-948D4E318FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79418CEA-E115-43B2-BAF4-A6F20C0C4FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79418CEA-E115-43B2-BAF4-A6F20C0C4FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79418CEA-E115-43B2-BAF4-A6F20C0C4FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79418CEA-E115-43B2-BAF4-A6F20C0C4FBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
