@@ -6,6 +6,8 @@ using AgentsAndMcps.Console.Examples;
 
 //await ExtensionsOpenAI.ChatWithExtensions();
 
-await AgentsOpenAI.ChatWithAgents();
+//await AgentsOpenAI.ChatWithAgents();
+
+await WorkflowOpenAI.ChatWithWorkflow();
 
 Console.ReadLine();
