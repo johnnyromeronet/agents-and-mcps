@@ -2,7 +2,7 @@
 using OpenAI.Chat;
 using ChatMessage = Microsoft.Extensions.AI.ChatMessage;
 
-namespace AgentsAndMcps.Console;
+namespace AgentsAndMcps.Console.Examples;
 
 public static class ExtensionsOpenAI
 {

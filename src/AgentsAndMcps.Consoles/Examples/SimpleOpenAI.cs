@@ -4,7 +4,7 @@ using System.Text.Json;
 using OpenAI;
 using OpenAI.Chat;
 
-namespace AgentsAndMcps.Console;
+namespace AgentsAndMcps.Console.Examples;
 
 public static class SimpleOpenAI
 {
