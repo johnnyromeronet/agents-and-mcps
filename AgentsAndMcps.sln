@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsAndMcps.Console", "src\AgentsAndMcps.Consoles\AgentsAndMcps.Console.csproj", "{ED87BF9F-08CD-4BAE-A398-AA3410783619}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsAndMcps.Console", "src\AgentsAndMcps.Console\AgentsAndMcps.Console.csproj", "{ED87BF9F-08CD-4BAE-A398-AA3410783619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentsAndMcps.Client", "src\AgentsAndMcps.Client\AgentsAndMcps.Client.csproj", "{EA4323EA-2537-4B72-A0F0-575FCAA8522D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ED87BF9F-08CD-4BAE-A398-AA3410783619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED87BF9F-08CD-4BAE-A398-AA3410783619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED87BF9F-08CD-4BAE-A398-AA3410783619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4323EA-2537-4B72-A0F0-575FCAA8522D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4323EA-2537-4B72-A0F0-575FCAA8522D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4323EA-2537-4B72-A0F0-575FCAA8522D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4323EA-2537-4B72-A0F0-575FCAA8522D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
