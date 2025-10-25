@@ -1,13 +1,15 @@
 ﻿using System.ComponentModel;
+using ModelContextProtocol;
 using ModelContextProtocol.Server;
 
 namespace AgentsAndMcps.Console.Tools;
 
 [McpServerToolType]
-public class LocationTool
+public static class LocationTool
 {
     [McpServerTool, Description("Obtiene información (en formato json) sobre la localización de un lugar.")]
-    public static string GetLocationInfo(string site)
+    public static string GetLocationInfo(
+        [Description("Nombre de la ciudad.")] string site)
     {
         try
         {
@@ -26,8 +28,9 @@ public class LocationTool
         }
         catch (Exception ex)
         {
-            System.Console.WriteLine($"GetLocationInfo --> [ERROR] {ex.Message}");
-            return string.Empty;
+            var exceptionMsg = ex.InnerException != null ? $"{ex.Message} - {ex.InnerException.Message}" : ex.Message;
+            var message = $"GetLocationInfo --> [ERROR] {exceptionMsg}";
+            throw new McpException(message);
         }
     }
 
